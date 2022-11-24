@@ -1,0 +1,84 @@
+@import '../../SaaSAssets/variable.scss';
+#contact{
+    // background-color: red;
+    min-height: max-content;
+    max-height: 90vh;
+}
+.contact_cont{
+    height: fit-content;
+    .form{
+        // border: 1px solid red;
+        width: 60%;
+        margin: 0 auto;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;
+            >div{
+                border: 2px solid $color-primary-varient ;
+                padding: 1rem 1rem;
+                height: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                background: rgba(0,0,0,0.3);
+                backdrop-filter: blur(15px);
+                border: 1px solid $color-bg-varient;
+                width: 100%;
+                >svg{
+                    margin-right: 2%;
+                    height: 90%;
+                    font-size: 1.5rem;
+                }
+                
+                .input{
+                    width: 94%;
+                    height: 90%;
+                    background-color: transparent;
+                    color: white;
+                    padding: 0rem 0.5rem;
+                    font-size: 1.1rem;
+                    resize: none;
+
+                }
+            }
+            .name , .email{
+                padding: 0.2rem 1rem;
+            }
+            .message{
+                height: 4rem;
+            }
+            .form-btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                
+               
+                
+            
+           
+        }
+        margin-bottom: 9rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .contact_cont{
+        .form{
+            width: 80%;
+        }
+    }
+   
+}
+@media screen and (max-width:600px) {
+    .contact_cont{
+        .form{
+            width: 90%;
+        }
+
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+}

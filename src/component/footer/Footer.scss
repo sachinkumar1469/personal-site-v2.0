@@ -1,0 +1,82 @@
+@import '../../SaaSAssets/variable.scss';
+footer{
+    background: $color-primary;
+    padding: 3rem 4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    // border: 1px solid red;
+    a{
+        color: $color-bg;
+    }
+    .logo{
+        display: inline-block;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+    .footer_socials{
+        display:flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 4rem;
+        a{
+            background: $color-bg;
+            color: white;
+            padding: 0.6rem;
+            border-radius: 0.7rem;
+            display: flex;
+            border: 1px solid transparent;
+            svg{
+                font-size: 1.6rem;
+
+            }
+        }
+        a:hover{
+            background: transparent;
+            border-color: $color-bg;
+            color: $color-bg !important;
+            
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    footer{
+        
+        padding: 2rem 2rem;
+       
+        
+        font-size: 0.9rem;
+        margin-top: 0rem;
+       
+        .logo{
+            
+            font-size: 1.5rem;
+           
+            
+        }
+        .footer_socials{
+           
+            gap: 0.8rem;
+            margin-bottom: 4rem;
+            a{
+               
+               
+                padding: 0.4rem;
+                border-radius: 0.7rem;
+              
+                svg{
+                    font-size: 1rem;
+    
+                }
+            }
+            a:hover{
+                background: transparent;
+                border-color: $color-bg;
+                color: $color-bg !important;
+                
+            }
+        }
+    }
+}

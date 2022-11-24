@@ -1,0 +1,6 @@
+@mixin typography($fontSize:18px,$fontWeight:400,$lineHight:1px) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHight;
+  
+}

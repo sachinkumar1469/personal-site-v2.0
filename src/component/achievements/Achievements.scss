@@ -1,0 +1,27 @@
+@import '../../SaaSAssets/variable.scss';
+
+.achievements_cont{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+   
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: $color-light;
+}
+.swiper-pagination-bullet-active{
+    color: $color-primary ;
+}
+#education{
+    min-height: auto;
+    max-height: auto;
+}
+.swipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    span{
+        margin: 0 5px;
+    }
+}

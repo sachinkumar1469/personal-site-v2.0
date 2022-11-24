@@ -1,0 +1,88 @@
+@import './SaaSAssets/mixins.scss';
+@import './SaaSAssets/variable.scss';
+section{
+    margin-top: 8rem;
+    // border: 1px solid blue;
+    min-height: 100vh;
+    max-height: auto;
+    overflow: hidden;
+}
+.container{
+    width: $container-width-lg;
+    margin: 0 auto;
+    height: auto;
+    // border: 1px solid green;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem;
+}
+section{
+    >h2{
+        text-align: center;
+        color:$color-primary;
+        margin-bottom: 3rem;
+    }
+    >h5{
+        text-align: center;
+        color: $color-light;
+    }
+}
+.text-light{
+    color: $color-light;
+}
+a{
+    color: $color-primary;
+    transition: all 400ms ease;
+}
+a:hover{
+    color: $color-white;
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color:$color-primary;
+    padding:0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid $color-primary;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.btn:hover{
+    background-color: $color-white;
+    color: $color-bg;
+    border-color: transparent;
+}
+.btn-primary{
+    background-color: $color-primary;
+    color: $color-bg;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+//  Media queries for medium size
+
+@media screen and (max-width:1024px) {
+    .container{
+        width:$container-width-md;
+    }
+    section{
+        margin-top: 6rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        width:$container-width-sm;
+    }
+    section{
+        // background-color: red;
+    }
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}

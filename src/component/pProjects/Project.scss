@@ -1,0 +1,72 @@
+@import '../../SaaSAssets/variable.scss';
+@import '../../SaaSAssets/mixins.scss';
+
+.project_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    // border: 1px solid red;
+    .project_item{
+        background:$color-bg-varient;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: all 400ms ease;
+        height: max-content;
+        &:hover{
+            border-color: $color-primary-varient;
+            background: transparent;
+        }
+        .project_image{
+            border-radius: 1.5rem;
+
+            
+            border: 1.5px solid $color-primary;
+            overflow: hidden;
+            >img{
+                border-radius: 1.5rem;
+            }
+        }
+        >h3{
+            margin: 1.2rem 0 1.2rem;
+        }
+        >ul{
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+            >li{
+                // color: red;
+                position: relative;
+                text-align: justify;
+                @include typography(16px,300,18px);
+                margin: 0.6rem 0;
+            }
+            >li::before{
+                content: "";
+                width: 0.4rem;
+                height: 0.4rem;
+                border-radius: 50%;
+                display: block;
+                background-color: $color-primary;
+                /*Add absolute positioning*/
+                position: absolute;
+                top: 6px;
+                left: -15px;
+            }
+        }
+        .project_cta{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:600px) {
+    .project_container{
+        
+        grid-template-columns: 1fr;
+        
+    }
+}

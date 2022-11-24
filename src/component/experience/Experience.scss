@@ -1,0 +1,95 @@
+@import '../../SaaSAssets/variable.scss';
+
+.exp_container{
+    // border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,35%);
+    justify-content: center; 
+    gap: 10%;
+    
+    .exp_wrapper{
+        background: $color-bg-varient;
+        border-radius: 0 0 2rem 2rem;
+        border: 1px solid $color-primary;
+        transition: all 400ms ease;
+        &:hover{
+            background: transparent;
+            cursor: default;
+            border-color: $color-primary-varient;
+        }
+        .exp_head{
+            background: $color-primary;
+            padding: 2rem;
+            border-radius: 0 0 2rem 2rem;
+            box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+            h3{
+                color: $color-bg;
+                font-size: 1rem;
+                text-align: center;
+            }
+            h4{
+               font-size: 0.8rem;
+               text-align: center;
+               font-weight: 300;
+            }
+        }
+        .exp_dis{
+            padding: 2rem;
+            >li{
+                display: flex;
+                
+                
+                gap: 1rem;
+                margin-bottom: 0.7rem;
+                >svg{
+                    color: $color-primary;
+                    font-size: 3rem !important;
+                    align-self: flex-start;
+                    margin-top: -12px;
+                }
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .exp_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+    }
+}
+@media screen and (max-width:600px) {
+    .exp_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+        .exp_wrapper{
+            margin-bottom: 35px;
+            .exp_head{      
+                padding: 1rem;  
+                >h3{
+                    font-size: 1.2rem;
+                }
+                >h4{
+                    font-size: 1rem;
+                }            
+            }
+            .exp_dis{
+                padding: 1rem;
+                >li{
+                    gap: 1rem;
+                    margin-bottom: 0.6rem;
+                    >svg{
+                        font-size: 2rem !important;
+                        margin-top: -5px;
+                    }
+                    p{
+                        font-size: 0.8.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
