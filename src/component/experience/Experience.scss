@@ -12,6 +12,7 @@
         border-radius: 0 0 2rem 2rem;
         border: 1px solid $color-primary;
         transition: all 400ms ease;
+        height: max-content;
         &:hover{
             background: transparent;
             cursor: default;
@@ -35,10 +36,10 @@
         }
         .exp_dis{
             padding: 2rem;
+            list-style:disc !important;
             >li{
                 display: flex;
-                
-                
+                position: relative;
                 gap: 1rem;
                 margin-bottom: 0.7rem;
                 >svg{
@@ -49,7 +50,20 @@
                 }
                 p{
                     font-size: 0.9rem;
+                    text-align: justify;
                 }
+            }
+            >li::before{
+                content: "";
+                width: 0.4rem;
+                height: 0.4rem;
+                border-radius: 50%;
+                display: block;
+                background-color: $color-primary;
+                /*Add absolute positioning*/
+                position: absolute;
+                top: 8px;
+                left: -15px;
             }
         }
     }

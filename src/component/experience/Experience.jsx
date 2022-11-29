@@ -14,37 +14,37 @@ const Experience = () => {
           </div>
           <ul className="exp_dis">
             <li>
-              <BiCheck className='exp_dis_icon'/>
+              {/* <BiCheck className='exp_dis_icon'/> */}
               <p>Created user interfaces using HTML5, CSS3, and modern JavaScript frameworks.</p>
             </li>
             <li>
-              <BiCheck className='exp_dis_icon'/>
+              {/* <BiCheck className='exp_dis_icon'/> */}
               <p>Analyzed requirements and designed, developed, and implemented gym website for client.</p>
             </li>
             <li>
-              <BiCheck className='exp_dis_icon'/>
+              {/* <BiCheck className='exp_dis_icon'/> */}
               <p>Assisted in the creation of various features in portfolio website.</p>
             </li>
           </ul>
         </div>
         <div className="exp_wrapper">
           <div className="exp_head">
-            <h3>Web Developer</h3>
-            <h4>At WebSolGuru</h4>
+            <h3>AWS Cloud Internship</h3>
+            <h4>At Eduskill Foundation</h4>
           </div>
           <ul className="exp_dis">
             <li>
-              <BiCheck className='exp_dis_icon'/>
-              <p>Created user interfaces using HTML5, CSS3, and modern JavaScript frameworks.</p>
+              {/* <BiCheck className='exp_dis_icon'/> */}
+              <p>Learned and worked upon various AWS Cloud technologies such as EC2, IAM, S3, EBS, EFS, RDS Config, Route S3, and Elastic Cache.</p>
             </li>
             <li>
-              <BiCheck className='exp_dis_icon'/>
-              <p>Analyzed requirements and designed, developed, and implemented gym website for client.</p>
+              {/* <BiCheck className='exp_dis_icon'/> */}
+              <p>Deployed a live website on AWS Services</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='exp_dis_icon'/>
               <p>Assisted in the creation of various features in portfolio website.</p>
-            </li>
+            </li> */}
           </ul>
         </div>
         

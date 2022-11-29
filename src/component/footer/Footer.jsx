@@ -6,11 +6,11 @@ const Footer = () => {
     <footer>
       <a className='logo' href="#"> SACHIN YADAV</a>
       <div className="footer_socials">
-        <a href="#"><AiFillGithub/></a>
-        <a href="#"><AiFillLinkedin/></a>
-        <a href="#"><AiFillTwitterSquare/></a>
-        <a href="#"><AiFillRedditSquare/></a>
-        <a href="#"><AiFillFacebook/></a>
+        <a href=""><AiFillGithub/></a>
+        <a href=""><AiFillLinkedin/></a>
+        <a href=""><AiFillTwitterSquare/></a>
+        <a href=""><AiFillRedditSquare/></a>
+        <a href=""><AiFillFacebook/></a>
        
       </div>
       <div className="copyright">

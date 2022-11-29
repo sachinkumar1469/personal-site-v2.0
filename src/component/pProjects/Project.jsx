@@ -2,12 +2,28 @@ import React from 'react'
 import './Project.scss'
 import excel from '../../assets/templateImg/project/excel_project.png'
 import studio from '../../assets/templateImg/project/studio_project.png'
+import yt from '../../assets/templateImg/project/youtube_project.png'
 const Project = () => {
   return (
     <section id="project">
       <h5>My Recent Projects</h5>
       <h2>Projects</h2>
       <div className="container project_container">
+        <div className="project_item">
+          <div className="project_image"><img src={yt} alt="" /></div>
+          <h3>Youtube Clone Using ReactJs</h3>
+          <ul className="project_dis">
+            <li>Fully functional clone of Youtube Web using ReactJs and RapidAPI.</li>
+            <li>It's a Single Page Application.</li>
+            <li>Used various features of ReactJs like createContext, useState, useEffect, useContext and BrowserRouter.</li>
+            <li>In this project RapidAPI is used to fetched the data from YouTube servers.</li>
+            <li>Technologies used: JSX, ReactJs and TailwindCSS.</li>
+          </ul>
+          <div className="project_cta">
+            <a href="https://github.com/sachinkumar1469/youtube-clone-using-react" className='btn' target='_blank'>GitHub</a>
+            <a href="https://sanyoutube.cf/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </div>
         <div className="project_item">
           <div className="project_image"><img src={excel} alt="" /></div>
           <h3>MsExcel/Google Sheets Clone</h3>
@@ -38,6 +54,7 @@ const Project = () => {
             <a href="https://sanstudio.cf/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </div>
+        
       </div>
       
     </section>
