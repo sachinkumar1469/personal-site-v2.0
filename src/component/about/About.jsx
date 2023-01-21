@@ -28,7 +28,7 @@ const About = () => {
                 <span className="text">Java</span>
               </div>
             </div> 
-            <p>HELLO! Nice to meet you, I am Sachin Kumar, an undergraduate Computer Science student from India, currently studying in Greater Noida. I am an Open Source Enthusiast, Android Developer getting on cross platform development using React Native, I am also a Full Stack Web Developer using MERN and MEAN stack. I also like to experiment with UI/UX. I like to work in a fast paced environment where I can have the opportunity to learn many things at once. If you think I would be a good fit for something you are working on, feel free to drop an email or get in touch anywhere, I will be happy to discuss.</p>
+            <p>HELLO! Nice to meet you, I am Sachin Kumar, an undergraduate Computer Science student from India, currently studying in Greater Noida. I am an Open Source Enthusiast, Android Developer getting on cross platform development using React Native, I am also a Full Stack Web Developer using MERN stack. I also like to experiment with UI/UX. I like to work in a fast paced environment where I can have the opportunity to learn many things at once. If you think I would be a good fit for something you are working on, feel free to drop an email or get in touch anywhere, I will be happy to discuss.</p>
             <div className='atag'>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

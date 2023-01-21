@@ -3,12 +3,32 @@ import './Project.scss'
 import excel from '../../assets/templateImg/project/excel_project.png'
 import studio from '../../assets/templateImg/project/studio_project.png'
 import yt from '../../assets/templateImg/project/youtube_project.png'
+import textit from '../../assets/templateImg/project/textit.png'
 const Project = () => {
   return (
     <section id="project">
       <h5>My Recent Projects</h5>
       <h2>Projects</h2>
       <div className="container project_container">
+
+        <div className="project_item">
+          <div className="project_image"><img src={textit} alt="" /></div>
+          <h3>Text-It</h3>
+          <ul className="project_dis">
+            <li>Real-Time chat application.</li>
+            <li>Messaging application which is built using ReactJs.</li>
+            <li>Uses Firebase Firestore as NoSQL Database.</li>
+            <li>Authentication using Firebase email and password Auth.</li>
+            <li>Firebase Storage is used for image sharing.</li>
+            <li>•Context API and useReducer are used for global State Management.</li>
+            <li>The phone number is used as a unique username.</li>
+          </ul>
+          <div className="project_cta">
+            <a href="https://github.com/sachinkumar1469/text-it" className='btn' target='_blank'>GitHub</a>
+            <a href="https://textit.cf/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </div>
+
         <div className="project_item">
           <div className="project_image"><img src={yt} alt="" /></div>
           <h3>Youtube Clone Using ReactJs</h3>
@@ -24,6 +44,7 @@ const Project = () => {
             <a href="https://sanyoutube.cf/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </div>
+
         <div className="project_item">
           <div className="project_image"><img src={excel} alt="" /></div>
           <h3>MsExcel/Google Sheets Clone</h3>
