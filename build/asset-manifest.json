@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fbcd5f2.css",
-    "main.js": "/static/js/main.8045716a.js",
+    "main.css": "/static/css/main.5687a725.css",
+    "main.js": "/static/js/main.04a266e5.js",
     "static/media/youtube_project.png": "/static/media/youtube_project.cdad1b7921c4ce8296c8.png",
     "static/media/front.jpg": "/static/media/front.80dc788dd7df29a02806.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.fd374f68533cd77e5a89.jpg",
     "static/media/java.jpg": "/static/media/java.64e3336825cc904e7bc3.jpg",
     "static/media/textit.png": "/static/media/textit.b6b46e2f5e1180ea7223.png",
     "static/media/studio_project.png": "/static/media/studio_project.92a1886c615d9be20bbe.png",
+    "static/media/profile_picture1.jpg": "/static/media/profile_picture1.ab9e757fee7f5a0d568d.jpg",
     "static/media/express.png": "/static/media/express.4fbd70f099f63548368a.png",
     "static/media/VC.png": "/static/media/VC.bdf316a6512f88576faf.png",
     "static/media/tech-icons.png": "/static/media/tech-icons.bba568408fb42fa031c8.png",
@@ -15,7 +16,6 @@
     "static/media/excel_project.png": "/static/media/excel_project.e68f347f5ca1ac9b9e67.png",
     "static/media/apache.png": "/static/media/apache.1b19aad3da78faddd827.png",
     "static/media/sachin_kr.jpg": "/static/media/sachin_kr.93d569104848a563d1b7.jpg",
-    "static/media/profile_picture1.jpg": "/static/media/profile_picture1.f97b500564984d1b486b.jpg",
     "static/media/saas.png": "/static/media/saas.ff456cc62b0450d70c3d.png",
     "static/media/aws.png": "/static/media/aws.291bb8025c1ae0517224.png",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
@@ -28,11 +28,11 @@
     "static/media/node.png": "/static/media/node.a4713ff2ca054bf23788.png",
     "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
     "index.html": "/index.html",
-    "main.9fbcd5f2.css.map": "/static/css/main.9fbcd5f2.css.map",
-    "main.8045716a.js.map": "/static/js/main.8045716a.js.map"
+    "main.5687a725.css.map": "/static/css/main.5687a725.css.map",
+    "main.04a266e5.js.map": "/static/js/main.04a266e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fbcd5f2.css",
-    "static/js/main.8045716a.js"
+    "static/css/main.5687a725.css",
+    "static/js/main.04a266e5.js"
   ]
 }
