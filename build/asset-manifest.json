@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5687a725.css",
-    "main.js": "/static/js/main.04a266e5.js",
+    "main.css": "/static/css/main.4ea3aab0.css",
+    "main.js": "/static/js/main.e60d2443.js",
     "static/media/youtube_project.png": "/static/media/youtube_project.cdad1b7921c4ce8296c8.png",
     "static/media/front.jpg": "/static/media/front.80dc788dd7df29a02806.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.fd374f68533cd77e5a89.jpg",
     "static/media/java.jpg": "/static/media/java.64e3336825cc904e7bc3.jpg",
-    "static/media/textit.png": "/static/media/textit.b6b46e2f5e1180ea7223.png",
+    "static/media/your_visit.png": "/static/media/your_visit.16f74d4f645910d5e71b.png",
+    "static/media/textit.png": "/static/media/textit.3e667604a6c6e2feb25d.png",
     "static/media/studio_project.png": "/static/media/studio_project.92a1886c615d9be20bbe.png",
     "static/media/profile_picture1.jpg": "/static/media/profile_picture1.ab9e757fee7f5a0d568d.jpg",
-    "static/media/express.png": "/static/media/express.4fbd70f099f63548368a.png",
     "static/media/VC.png": "/static/media/VC.bdf316a6512f88576faf.png",
     "static/media/tech-icons.png": "/static/media/tech-icons.bba568408fb42fa031c8.png",
+    "static/media/san_social.png": "/static/media/san_social.a62abf40d2ede711edef.png",
     "static/media/Sachin_Kumar_Resume.pdf": "/static/media/Sachin_Kumar_Resume.4b022126445f69c5578e.pdf",
     "static/media/excel_project.png": "/static/media/excel_project.e68f347f5ca1ac9b9e67.png",
     "static/media/apache.png": "/static/media/apache.1b19aad3da78faddd827.png",
@@ -27,12 +28,14 @@
     "static/media/gcloud.png": "/static/media/gcloud.7e7951bf7e3126ebef80.png",
     "static/media/node.png": "/static/media/node.a4713ff2ca054bf23788.png",
     "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/express.svg": "/static/media/express.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/index.html",
-    "main.5687a725.css.map": "/static/css/main.5687a725.css.map",
-    "main.04a266e5.js.map": "/static/js/main.04a266e5.js.map"
+    "static/media/firebase.svg": "/static/media/firebase.c55df03130647cc8ee934a0a6ebecf70.svg",
+    "main.4ea3aab0.css.map": "/static/css/main.4ea3aab0.css.map",
+    "main.e60d2443.js.map": "/static/js/main.e60d2443.js.map"
   },
   "entrypoints": [
-    "static/css/main.5687a725.css",
-    "static/js/main.04a266e5.js"
+    "static/css/main.4ea3aab0.css",
+    "static/js/main.e60d2443.js"
   ]
 }
