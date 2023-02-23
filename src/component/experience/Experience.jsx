@@ -27,6 +27,7 @@ const Experience = () => {
             </li>
           </ul>
         </div>
+        
         <div className="exp_wrapper">
           <div className="exp_head">
             <h3>AWS Cloud Internship</h3>

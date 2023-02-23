@@ -8,31 +8,38 @@
     // border: 1px solid red;
     .project_item{
         background:$color-bg-varient;
-        padding: 1.2rem;
-        border-radius: 2rem;
+        background: rgb(17 48 169);
+        // padding: 1.2rem;
+        border-radius: 1.5rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
         border: 1px solid transparent;
         transition: all 400ms ease;
         height: max-content;
+        overflow: hidden;
         &:hover{
             border-color: $color-primary-varient;
             background: transparent;
         }
         .project_image{
-            border-radius: 1.5rem;
-
+            // border-radius: 1.5rem;
             
-            border: 1.5px solid $color-primary;
+            
+            // border: 1.5px solid $color-primary;
             overflow: hidden;
             >img{
-                border-radius: 1.5rem;
+                // border-radius: 1.5rem;
             }
         }
         >h3{
             margin: 1.2rem 0 1.2rem;
+            padding-inline: 1.2rem;
         }
         >ul{
             padding-left: 1rem;
             margin-bottom: 1.5rem;
+            margin-inline: 1.2rem;
+            // padding-bottom: 1.2rem;
             >li{
                 // color: red;
                 position: relative;
@@ -56,6 +63,8 @@
         .project_cta{
             display: flex;
             gap: 1rem;
+            margin-inline: 1.2rem;
+            margin-bottom: 1.2rem;
         }
     }
 }
