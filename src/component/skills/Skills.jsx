@@ -3,7 +3,7 @@ import './Skills.scss'
 import skillsImage from '../../assets/templateImg/tech-icons.png'
 import Skill from './Skill'
 
-import {c,java,javascript,typescript,aws,gcloud,vc,mysql,mongodb,node,apache,reactLogo,angular,html,css,bootstrap,jquery,saas} from '../../assets/templateImg/skills_icons/skillIcon'
+import {c,java,javascript,firebase,typescript,aws,gcloud,vc,mysql,express,mongodb,node,apache,reactLogo,angular,html,css,bootstrap,jquery,saas} from '../../assets/templateImg/skills_icons/skillIcon'
 
 
 const Skills = () => {
@@ -41,12 +41,14 @@ const Skills = () => {
           <h4>Backend</h4>
           <div className="skills_cont">
             <Skill logo={node}/>
-            <Skill logo={apache}/>   
+            <Skill logo={apache}/>  
+            {/* <Skill logo={express}/>  */}
           </div>
           <h4>Database</h4>
           <div className="skills_cont">
             <Skill logo={mysql}/>
             <Skill logo={mongodb}/>   
+            <Skill logo={firebase}/>
           </div>
           <h4>Cloud</h4>
           <div className="skills_cont">

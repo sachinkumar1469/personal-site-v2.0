@@ -4,14 +4,16 @@ section{
     margin-top: 8rem;
     // border: 1px solid blue;
     min-height: 100vh;
-    max-height: auto;
-    overflow: hidden;
+    max-height: max-content;
+    // overflow: hidden;
 }
 .container{
     width: $container-width-lg;
     margin: 0 auto;
-    height: auto;
+    height: max-content;
     // border: 1px solid green;
+    // background: rgba(255, 255, 255, 0.8);
+    // padding: 10px;
 }
 h1,h2,h3,h4,h5{
     font-weight: 500;
@@ -44,9 +46,13 @@ a:hover{
     width: max-content;
     display: inline-block;
     color:$color-primary;
+    color:#3742fa;
+    color: white;
+    
     padding:0.75rem 1.2rem;
     border-radius: 0.4rem;
     border: 1px solid $color-primary;
+    border: 2px solid #3742fa;
     cursor: pointer;
     transition: all 400ms ease;
 }
@@ -57,7 +63,9 @@ a:hover{
 }
 .btn-primary{
     background-color: $color-primary;
+    background-color: #3742fa;
     color: $color-bg;
+    color: white;
 }
 img{
     display: block;

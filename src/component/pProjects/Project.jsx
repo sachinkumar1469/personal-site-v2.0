@@ -3,13 +3,51 @@ import './Project.scss'
 import excel from '../../assets/templateImg/project/excel_project.png'
 import studio from '../../assets/templateImg/project/studio_project.png'
 import yt from '../../assets/templateImg/project/youtube_project.png'
-import textit from '../../assets/templateImg/project/textit.png'
+import textit from '../../assets/templateImg/project/textit.png';
+import sansocial from '../../assets/templateImg/project/san_social.png';
+import yourvisit from "../../assets/templateImg/project/your_visit.png";
 const Project = () => {
   return (
     <section id="project">
       <h5>My Recent Projects</h5>
       <h2>Projects</h2>
       <div className="container project_container">
+
+        <div className="project_item">
+          <div className="project_image"><img src={yourvisit} alt="" /></div>
+          <h3>Your-Visit</h3>
+          <ul className="project_dis">
+            <li>Your-Visit is a social media application where users can post images with live locations of any place.</li>
+            <li>Google Map API is used for location sharing.</li>
+            <li>MongoDB Atlas is used as the database server.</li>
+            <li>Rest APIs are built using ExpressJs and NodeJs.</li>
+            <li>JWT package is used for authentication, BcryptJs for password Hashing, and Multer for File Upload.</li>
+            <li>JWT package is used for authentication, BcryptJs for password Hashing, and Multer for File Upload.</li>
+            <li>ReactJs library is used to build the front end.</li>
+            <li>Custom Hooks and in-built react Hooks are used like useState, useEffect, useRef, useReducer, etc.</li>
+          </ul>
+          <div className="project_cta">
+            <a href="https://github.com/sachinkumar1469/mern-stack-social-media-application" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/sachinkumar1469/mern-stack-social-media-application" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </div>
+
+        <div className="project_item">
+          <div className="project_image"><img src={sansocial} alt="" /></div>
+          <h3>SanSocial</h3>
+          <ul className="project_dis">
+            <li>This social media app is a web-based platform designed for social and interactive engagement.</li>
+            <li>The app allows users to sign up and sign in using either their email and password or Google account.</li>
+            <li>Once logged in, users can create posts similar to Twitter, as well as like and comment on other users' posts.</li>
+            <li>Users can view the profiles of other users and add them as friends to expand their social network.</li>
+            <li>The app includes a one-to-one chat feature for private, real-time conversations between users.</li>
+            <li>The app is built using Node.js, MongoDB, jQuery, AJAX, and EJS technologies to provide a seamless and intuitive user experience.</li>
+          </ul>
+          <div className="project_cta">
+            <a href="https://github.com/sachinkumar1469/sansocial-nodejs-social-media-web-app" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/sachinkumar1469/sansocial-nodejs-social-media-web-app" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </div>
 
         <div className="project_item">
           <div className="project_image"><img src={textit} alt="" /></div>

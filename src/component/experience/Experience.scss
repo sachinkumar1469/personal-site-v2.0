@@ -3,30 +3,36 @@
 .exp_container{
     // border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(2,35%);
-    justify-content: center; 
-    gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    // justify-content: center; 
+    // gap: 10%;
+    max-height: max-content;
     
     .exp_wrapper{
         background: $color-bg-varient;
         background: rgb(17 48 169);
-        border-radius: 0 0 2rem 2rem;
-        border: 1px solid $color-primary;
+        // background: #3742fa;
+        border-radius: 1.5rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border: 1px solid transparent;
         transition: all 400ms ease;
         height: max-content;
         &:hover{
-            background: transparent;
+            // background: transparent;
             cursor: default;
             border-color: $color-primary-varient;
         }
         .exp_head{
             background: $color-primary;
             padding: 2rem;
-            border-radius: 0 0 2rem 2rem;
+            // border-radius: 0 0 1.5rem 1.5rem;
             box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
             h3{
                 color: $color-bg;
                 font-size: 1rem;
+                font-weight: 900;
                 text-align: center;
             }
             h4{

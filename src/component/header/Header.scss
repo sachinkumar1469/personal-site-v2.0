@@ -31,6 +31,7 @@ header{
     a{
         svg{
             color:$color-primary;
+            color: #3742fa;
             font-size: 1rem;
             border-radius: 20%;
             transition: color 1s;
@@ -55,6 +56,7 @@ header{
     width: 1px;
     height: 2rem;
     background: $color-primary;
+    background: #3742fa;
 
 }
 .image-rectangle{
@@ -86,6 +88,7 @@ header{
     display: flex;
     align-items: center;
     gap: 4px;
+    color: #3742fa;
 }
 
 @media screen and (max-width:1024px) {

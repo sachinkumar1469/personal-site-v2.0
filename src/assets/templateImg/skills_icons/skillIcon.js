@@ -5,7 +5,7 @@ import typescript from './typescript.png';
 import node from './node.png';
 import apache from './apache.png'
 import reactLogo from './react.png';
-import express from './express.png'
+// import express from './express.png'
 import angular from './angular.png'
 import html from './html.png'
 import css from './css.png'
@@ -17,8 +17,10 @@ import mongodb from './mongodb.png'
 import aws from './aws.png'
 import gcloud from './gcloud.png'
 import vc from './VC.png'
+import express from "./express.svg"
+import firebase from "./firebase.svg"
 // import cmake from './cmake.png'
 // import gradle from './gradle.png'
 
 
-export {c,java,javascript,typescript,aws,gcloud,vc,mysql,mongodb,node,apache,reactLogo,angular,html,css,bootstrap,jquery,saas};
+export {c,java,express,firebase,javascript,typescript,aws,gcloud,vc,mysql,mongodb,node,apache,reactLogo,angular,html,css,bootstrap,jquery,saas};
